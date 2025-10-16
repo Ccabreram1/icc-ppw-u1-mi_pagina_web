@@ -48,8 +48,9 @@
   </ul>
 </aside>
 
+---
 **Práctica 2 – Adición de CSS y JavaScript**
-
+---
 | Archivo     | Descripción                                                                                         | Ubicación                 |
 | ----------- | --------------------------------------------------------------------------------------------------- | ------------------------- |
 | `style.css` | Contiene todos los estilos visuales del sitio (colores, tipografía, márgenes, botones, tabla, etc.) | Carpeta raíz del proyecto |
