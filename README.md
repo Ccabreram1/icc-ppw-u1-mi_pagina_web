@@ -48,9 +48,7 @@
   </ul>
 </aside>
 
-
-## Práctica 2 – Adición de CSS y JavaScript
----
+**Práctica 2 – Adición de CSS y JavaScript**
 
 | Archivo     | Descripción                                                                                         | Ubicación                 |
 | ----------- | --------------------------------------------------------------------------------------------------- | ------------------------- |
@@ -58,7 +56,6 @@
 | `script.js` | Contiene las funciones y eventos JavaScript que agregan comportamiento dinámico                     | Carpeta raíz del proyecto |
 
 ## Estructura final del proyecto:
-
 ```
 icc-ppw-u1-mi_pagina_web/
 │
