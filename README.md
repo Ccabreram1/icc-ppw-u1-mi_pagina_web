@@ -5,8 +5,8 @@
 **Asignatura:** Programación y Plataformas Web  
 **Unidad:** 1.2 – Estándares Web  
 **Estudiante:** Sebastian Cabrera
-**Repositorio:** 
-**Página desplegada (GitHub Pages):** [https://ccabreram1.github.io/icc-ppw-u1-mi_pagina_web/]
+**Repositorio:** [https://github.com/Ccabreram1/icc-ppw-u1-mi_pagina_web](https://github.com/Ccabreram1/icc-ppw-u1-mi_pagina_web)
+**Página desplegada (GitHub Pages):** [https://ccabreram1.github.io/icc-ppw-u1-mi_pagina_web/](https://ccabreram1.github.io/icc-ppw-u1-mi_pagina_web/)
 
 ---
 
