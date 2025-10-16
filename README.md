@@ -124,8 +124,8 @@ header{
 
 ###  4. Interactividad agregada con JavaScript
 
+1.**Cambia el color del titulo al pasar el mouse por encima**
 ```javascript
-1. **Cambiar el color del título al pasar el mouse por encima**
 document.addEventListener("DOMContentLoaded", () => {
     // Efecto al pasar el mouse por el título
     const titulo = document.getElementById("titulo");
