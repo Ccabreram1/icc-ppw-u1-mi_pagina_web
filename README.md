@@ -49,7 +49,7 @@
 </aside>
 
 
-#  Práctica 2 – Adición de CSS y JavaScript
+## Práctica 2 – Adición de CSS y JavaScript
 ---
 
 | Archivo     | Descripción                                                                                         | Ubicación                 |
