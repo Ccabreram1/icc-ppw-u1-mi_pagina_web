@@ -149,6 +149,10 @@ document.addEventListener("DOMContentLoaded", () => {
 });
  ```
 
+## Capturas de pantalla del proyecto final
+![alt text](<Pagina con css y javascript.jpg>)
+![alt text](<Pagina sin css y javascript.jpg>)
+
 
 
 
