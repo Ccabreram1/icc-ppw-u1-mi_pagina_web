@@ -16,7 +16,7 @@
 |-------------|--------------|----------------|
 | `<!DOCTYPE html>` | Declaración del documento HTML5 | Línea 1 |
 | `<html lang="es">` | Idioma del documento | Español |
-| `<header>` | Encabezado principal | Contiene `<h1>` y `<h2>` |
+| `<header>` | Encabezado principal | Contiene `<h1>` `<h2>` y `<h3>` |
 | `<section>` | Agrupa contenido principal | Dos secciones con `<h2>` |
 | `<table>` | Muestra los elementos estudiados | Tres filas con `<th>` y `<td>` |
 | `<footer>` | Pie de página | Nombre del estudiante y asignatura |
