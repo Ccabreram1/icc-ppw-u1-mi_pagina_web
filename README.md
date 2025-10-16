@@ -48,6 +48,7 @@
   </ul>
 </aside>
 
+
 #  Práctica 2 – Adición de CSS y JavaScript
 ---
 
@@ -56,7 +57,7 @@
 | `style.css` | Contiene todos los estilos visuales del sitio (colores, tipografía, márgenes, botones, tabla, etc.) | Carpeta raíz del proyecto |
 | `script.js` | Contiene las funciones y eventos JavaScript que agregan comportamiento dinámico                     | Carpeta raíz del proyecto |
 
-Estructura final del proyecto:
+## Estructura final del proyecto:
 
 ```
 icc-ppw-u1-mi_pagina_web/
