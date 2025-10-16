@@ -124,6 +124,8 @@ header{
 
 ###  4. Interactividad agregada con JavaScript
 
+El archivo script.js incorpora dos acciones básicas:
+
 1.**Cambia el color del titulo al pasar el mouse por encima**
 ```javascript
 document.addEventListener("DOMContentLoaded", () => {
