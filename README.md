@@ -1,5 +1,6 @@
-#Programacion y plataformas Wber
-#Práctica 1 – Explorando los Estándares Web con HTML, CSS y JavaScript**
+# Programacion y plataformas Wber
+---
+# Práctica 1 – Explorando los Estándares Web con HTML, CSS y JavaScript**
 
 **Asignatura:** Programación y Plataformas Web  
 **Unidad:** 1.2 – Estándares Web  
@@ -20,6 +21,7 @@
 | `<table>` | Muestra los elementos estudiados | Tres filas con `<th>` y `<td>` |
 | `<footer>` | Pie de página | Nombre del estudiante y asignatura |
 
+--- 
 
 ## Nuevas etiquetas exploradas
 
@@ -47,9 +49,11 @@
     <li><a href="https://www.instagram.com/tato_cabrera_jr?igsh=ZDA2NHp4M291YTds&utm_source=qr">INSTAGRAM</a></li>
   </ul>
 </aside>
+```
+
 
 ---
-**Práctica 2 – Adición de CSS y JavaScript**
+## Práctica 2 – Adición de CSS y JavaScript
 ---
 | Archivo     | Descripción                                                                                         | Ubicación                 |
 | ----------- | --------------------------------------------------------------------------------------------------- | ------------------------- |
@@ -68,7 +72,7 @@ icc-ppw-u1-mi_pagina_web/
 └── README.md
 ```
 
-### 2. Implementación en HTML
+**2. Implementación en HTML**
 
 Los nuevos archivos se enlazaron dentro del documento `index.html` de la siguiente forma:
 
@@ -84,7 +88,64 @@ Los nuevos archivos se enlazaron dentro del documento `index.html` de la siguien
     <script src="scripts.js"></script>
 ```
 
+---
 
+### 3. Estilos aplicados con CSS
+
+| Elemento                    | Estilo implementado                                            | Descripción                             |
+| --------------------------- | -------------------------------------------------------------- | --------------------------------------- |
+| `body`                      | font-family: 'Times New Roman'font-family: 'Times New Roman', Times, serif; background-color: rgb(163, 205, 253); margin: 0; padding: 0;| Define la fuente principal de la página, aplica fondo celeste y elimina márgenes/rellenos por defecto.|
+| `header`                    |background-color: rgb(0, 117, 250); color: black; text-align: center; padding: 1rem;|Crea una franja superior azul con texto centrado y relleno interior.
+| `table`                     |border: 1px solid black; border-collapse: collapse;|Agrega bordes negros, unifica bordes y estructura visualmente la tabla de elementos.|
+| `section`                   |background-color: rgb(255, 255, 255); padding: 1.5rem; margin-top: 20px; margin-bottom: 2rem; border-radius: 15px; box-shadow: 0 0 5px rgba(0, 0, 0, 0.20); width: 900px; margin-left: auto; margin-right: auto;|Contenedor blanco centrado, con sombra, bordes redondeados y márgenes superior e inferior.|
+| `aside`                  || Contiene información complementaria, como enlaces o redes sociales, separada del contenido principal.|
+| `div`                  |                          |Sirve como contenedor flexible para organizar imágenes y texto (figcaption) lado a lado. |
+
+**Ejemplo en el código:**
+
+```css
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(138, 113, 113, 0.2);
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(5, 37, 51) ;
+    color:  rgb(112, 166, 189);
+    text-align: center;
+    padding: 1rem ;
+    margin-bottom: 2rem;
+}
+```
+
+---
+
+###  4. Interactividad agregada con JavaScript
+
+```javascript
+1. **Cambiar el color del título al pasar el mouse por encima**
+document.addEventListener("DOMContentLoaded", () => {
+    // Efecto al pasar el mouse por el título
+    const titulo = document.getElementById("titulo");
+    if (titulo) {
+        const originalColor = window.getComputedStyle(titulo).color;
+        titulo.addEventListener("mouseover", () => {
+            titulo.style.color = "white";
+        });
+        titulo.addEventListener("mouseout", () => {
+            titulo.style.color = originalColor || "";
+        });
+    }
+ ```
+2.**Da un mensaje de bienvenida al momento de abrir la pagina**
+```javascript
+    window.addEventListener("DOMContentLoaded",()=> {
+        alert("Bienvenido a mi pagina web")
+    });
+});
+ ```
 
 
 
