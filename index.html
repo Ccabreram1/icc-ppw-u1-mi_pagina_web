@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -8,12 +9,13 @@
 
 <body>
     <header>
-        <h1>BIENVENIDO A MI PAGINA WEB</h1>
+        <h1 id="titulo">ESTANDARES WEB</h1>
+        <p>Unidad 1 </p>
     </header>
 
     <section>
         <h2>TABLA DE ELEMENTOS</h2>
-        <table border="1">
+        <table id="tabla" border="1">
             <tr>
                 <th>Elemento</th>
                 <th>Descripcion</th>
@@ -28,23 +30,36 @@
                     que está relacionada de manera tangencial con la página o el contenido</td>
             </tr>
         </table>
-        <h2>ETIQUETAS NUEVAS</h2>
-            <figure>
-                <img src="Futbol.png.jpg" alt="Futbol" width="300">
-                <img src="Novia.png.jpg" alt="Novia" width="300">
-            </figure>
     </section>
+
+    <section>
+        <h2>ETIQUETAS NUEVAS</h2>
+            <figure id="imagenes">
+                <div>
+                    <img src="Futbol.png.jpg" alt="Futbol" width="300"> 
+                    <figcaption>Futbol</figcaption>
+                </div>
+                <div>
+                    <img src="Novia.png.jpg" alt="Novia" width="300">
+                    <figcaption>Paseo</figcaption>
+                </div>
+            </figure>
+    </section> 
     
-    <aside>
-        <h2>REDES SOCIALES</h2>
-        <ul>
-            <li><a href="https://www.instagram.com/tato_cabrera_jr?igsh=ZDA2NHp4M291YTds&utm_source=qr">INSTAGRAM</a></li>
-        </ul>
-    </aside>
+    <section>
+        <aside>
+            <h2>REDES SOCIALES</h2>
+            <ul>
+                <li><a href="https://www.instagram.com/tato_cabrera_jr?igsh=ZDA2NHp4M291YTds&utm_source=qr">INSTAGRAM</a></li>
+            </ul>
+        </aside>
+    </section>
 
     <footer>
-        <h3 style="color:rgb(0, 17, 255)">Autor: Sebastian Cabrera</h3>
-        <h3 style="color: rgb(0, 17, 255)">Materia: Programación y Plataformas Web</h3>     
-    </footer>
+        <h3>Desarrollado por: Sebastian Cabrera    Materia: Programación y Plataformas Web</h3>    
+    </footer> 
+
+    <script src="scripts.js"></script>
 </body>
+
 </html>
