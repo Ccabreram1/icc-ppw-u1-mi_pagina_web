@@ -1,6 +1,6 @@
 # Programacion y plataformas Wber
 ---
-# Práctica 1 – Explorando los Estándares Web con HTML, CSS y JavaScript**
+# Práctica 1 – Explorando los Estándares Web con HTML, CSS y JavaScript
 
 **Asignatura:** Programación y Plataformas Web  
 **Unidad:** 1.2 – Estándares Web  
