@@ -5,8 +5,8 @@
 **Asignatura:** Programación y Plataformas Web  
 **Unidad:** 1.2 – Estándares Web  
 **Estudiante:** Sebastian Cabrera
-**Repositorio:**  
-**Página desplegada (GitHub Pages):** https://ccabreram1.github.io/icc-ppw-u1-mi_pagina_web/
+**Repositorio:** [https://github.com/Ccabreram1/icc-ppw-u1-mi_pagina_web](https://github.com/Ccabreram1/icc-ppw-u1-mi_pagina_web)
+**Página desplegada (GitHub Pages):** [https://ccabreram1.github.io/icc-ppw-u1-mi_pagina_web/](https://ccabreram1.github.io/icc-ppw-u1-mi_pagina_web/)
 
 ---
 
@@ -16,7 +16,7 @@
 |-------------|--------------|----------------|
 | `<!DOCTYPE html>` | Declaración del documento HTML5 | Línea 1 |
 | `<html lang="es">` | Idioma del documento | Español |
-| `<header>` | Encabezado principal | Contiene `<h1>` y `<h2>` |
+| `<header>` | Encabezado principal | Contiene `<h1>` `<h2>` y `<h3>` |
 | `<section>` | Agrupa contenido principal | Dos secciones con `<h2>` |
 | `<table>` | Muestra los elementos estudiados | Tres filas con `<th>` y `<td>` |
 | `<footer>` | Pie de página | Nombre del estudiante y asignatura |
@@ -148,6 +148,10 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
  ```
+
+## Capturas de pantalla del proyecto final
+![alt text](<Pagina con css y javascript.jpg>)
+![alt text](<Pagina sin css y javascript.jpg>)
 
 
 
